@@ -9,7 +9,38 @@ header{
     justify-content: center;
     align-items: center;
 }
+
+img{
+    max-width: 500px;
+    max-height: 500px;
+}
  
 .btn{
     width: 8rem;
+}
+
+.recipe{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.description{
+    max-width: 400px;
+    padding-right: 10px;
+}
+
+#name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 18px;
 }
