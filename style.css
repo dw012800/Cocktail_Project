@@ -50,8 +50,8 @@ img{
     position: flex;
     justify-content: center;
     align-items: center;
-    display: inline-block;
     border-bottom: 1px black;
+    padding-top: 2rem;
 }
 
   .tooltip .tooltiptext {
